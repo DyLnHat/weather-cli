@@ -1,0 +1,12 @@
+# Compiled binary
+weather
+weather.exe
+ 
+# macOS
+.DS_Store
+ 
+# VSCode
+.vscode/
+ 
+# Environment files
+.env
