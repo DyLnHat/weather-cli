@@ -13,7 +13,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o weather .
 
 
 # -- Stage 2: Final image ------------------------------------------
-FROM alphine:3.19
+FROM alpine:3.19
 
 # ca-certificates: needed for HTTPS calls to OpenWeatherMap
 # tzdata: needed for correct local time formating
