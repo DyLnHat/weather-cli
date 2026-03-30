@@ -45,7 +45,7 @@ Last updated: 30 Mar 2026 · 22:00
 
 ### Option A — Build from source
 
-**Requirements:** Go 1.26+
+**Requirements:** Go 1.21+
 
 ```bash
 git clone https://github.com/DyLnHat/weather-cli.git
